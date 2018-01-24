@@ -7,3 +7,6 @@ h2{
 h3{
   background-color: red;
 }
+img{
+  max-width: 100%;
+}
