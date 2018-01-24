@@ -1,12 +1,9 @@
 h1{
-  background-color: red;
-  position: absolute;
+  background-color: blue;
 }
 h2{
-  background-color: grey;
-  position: absolute;
+  background-color: white;
 }
 h3{
-  background-color: blue;
-  position: absolute;
+  background-color: red;
 }
