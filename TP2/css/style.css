@@ -16,3 +16,8 @@ img{
     background: url(img/logo-iut.jpg) no-repeat: 0 0;
   }
 }
+@media (-webkit-min-device-pixel-ratio : 2){
+  .image{
+    background: url(img/logo-iut.jpg) no-repeat: 0 0;
+  }
+}
