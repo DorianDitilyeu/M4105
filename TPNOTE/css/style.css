@@ -1,0 +1,14 @@
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.choixaccueil{
+  text-align: right;
+}
+
+@media (min-resolution: 1dppx){
+  .logo{
+    background: url(../img/logo.png) no-repeat 0 0;
+    background-size: 100% auto;
+    margin-left: 20px;
+  }
