@@ -1,14 +1,72 @@
-.logo{
-  width: 40px;
-  height: 40px;
+*{
+  font-family: Liberation Sans;
 }
 .choixaccueil{
   text-align: right;
 }
-
+.btacc{
+  color: black;
+  text-decoration: none;
+}
 @media (min-resolution: 1dppx){
   .logo{
     background: url(../img/logo.png) no-repeat 0 0;
     background-size: 100% auto;
-    margin-left: 20px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
   }
+}
+
+
+#grand-ubuntu{
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+.texte{
+  margin-top: 100px;
+}
+.images4{
+  display: flex;
+}
+.pingouin{
+  width: 25%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+#cartemonde{
+  width: 80%;
+}
+.milieu{
+  display: flex;
+}
+.partie{
+  width: 50%;
+  margin-left: 50px;
+}
+.carte{
+  border-right: 1px solid black;
+}
+
+
+.inscrgr{
+  display: flex;
+}
+.inscr1{
+  width: 50%;
+  margin-right: 150px;
+  margin-bottom: 25px;
+}
+.inscr2{
+  width: 80%;
+  margin-bottom: 25px;
+}
+.inscr3{
+  width: 80%;
+  padding-bottom: 100px;
+}
