@@ -178,11 +178,13 @@
 /* PORTABLE */
 @media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
   .choixaccueil{
-    text-align: right;
+    text-align: center;
+    margin: auto;
   }
   .btacc{
     color: black;
     text-decoration: none;
+    margin: auto;
   }
   @media (min-resolution: 1dppx){
     .logo{
