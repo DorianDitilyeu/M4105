@@ -20,13 +20,17 @@
         <allow-intent href="market:*" />
         <icon src="res/icon/android/icon.png" />
         <splash src="res/screen/android/chargement.png" />
-        <preference name="AutoHideSplashScreen" value="true" />
-        <preference name="SplashScreenDelay" value="10000" />
+        <preference name="SplashScreenDelay" value="3000" />
         <preference name="SplashScreenBackgroundColor" value="white" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
+    <plugin name="cordova-plugin-device" spec="^2.0.1" />
+    <plugin name="cordova-plugin-contacts" spec="^3.0.1" />
+    <plugin name="cordova-plugin-battery-status" spec="^2.0.1" />
     <engine name="android" spec="^7.0.0" />
 </widget>
