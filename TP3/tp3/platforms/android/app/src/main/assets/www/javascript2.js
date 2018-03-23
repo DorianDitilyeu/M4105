@@ -4,7 +4,8 @@ function init() {
     navigator.contacts.find(
         [navigator.contacts.fieldType.displayName],
         gotContacts,
-        errorHandler);
+        errorHandler
+    );
 
 }
 
@@ -13,8 +14,8 @@ function errorHandler(e) {
 }
 
 function gotContacts(c) {
-    alert("gotContacts, number of results "+c.length);
+    alert("Vous avez "+c.length+" contacts !");
     for(var i=0, len=c.length; i<len; i++) {
-        console.dir(c[i]);
+        alert(c.displayName[i]);
     }
 }
